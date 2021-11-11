@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "shared-ui": "libs/shared-ui",
+    "shared-ui-e2e": "apps/shared-ui-e2e",
+    "skin-health": "apps/skin-health",
+    "skin-health-e2e": "apps/skin-health-e2e"
+  }
 }
