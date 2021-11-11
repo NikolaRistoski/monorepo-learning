@@ -49,6 +49,7 @@
             cardTitle={item.name}
             renderAllHandler={renderAllCategories}
             filterItemsHandler={filterItems}
+            titleFontSize="16px"
           />
 */
 
@@ -61,6 +62,9 @@ const { Meta } = Card;
 export function Master({ coverIcon, cardTitle, renderAllHandler, filterItemsHandler }) {
   return (
     <Col span={3}
+    style={{
+      textAlign: "center"
+    }}
       onClick={() => {
         if (cardTitle.toLowerCase() === 'all') {
           renderAllHandler(cardTitle)

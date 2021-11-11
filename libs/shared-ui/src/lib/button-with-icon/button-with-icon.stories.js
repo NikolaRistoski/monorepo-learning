@@ -1,5 +1,5 @@
 import ButtonWithIcon from './button-with-icon';
-import { MedicineBoxOutlined } from '@ant-design/icons';
+import { MedicineBoxOutlined, LaptopOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 
 
@@ -16,7 +16,21 @@ Primary.args = {
   type:"secondary",
   icon:<MedicineBoxOutlined />,
   size:"large",
-  width:"100%",
+  width:"15%",
+  color:"#737387",
+  justifyContent:"center",
+  alignContent:"center",
+  alignItems:"center",
+  handleClick:"handleClinic()"
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  title: 'Virtual Consultation',
+  type:"secondary",
+  icon:<LaptopOutlined />,
+  size:"large",
+  width:"15%",
   color:"#737387",
   justifyContent:"center",
   alignContent:"center",

@@ -65,7 +65,7 @@ export function ConsultationCard({ elementId, name, price, time, rating, review,
           </Col>
           {
             selectedSubCategory === elementId.replace(/ /g, "") ? <Col span={6}>
-              <p>TEST KOPCE</p>
+              <p>Test Button</p>
             </Col> : ''
           }
         </Row>

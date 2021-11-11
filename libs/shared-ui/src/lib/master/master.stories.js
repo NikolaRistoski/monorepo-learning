@@ -1,4 +1,5 @@
 import Master from './master';
+
 import { CreditCardOutlined } from '@ant-design/icons';
 
 export default {
@@ -12,7 +13,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   key:"111",
   coverIcon:<CreditCardOutlined />,
-  cardTitle:"Voucher",
+  cardTitle:"All",
   renderAllHandler:"Function()",
   filterItemsHandler:"Function()"
 };

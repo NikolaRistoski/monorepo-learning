@@ -1,7 +1,9 @@
 import 'antd/dist/antd.css';
 
 import ConsultationCard from './consultation-card';
-import { QuestionCircleOutlined, ClockCircleOutlined, LaptopOutlined, StarFilled } from "@ant-design/icons";
+import { QuestionCircleOutlined, ClockCircleOutlined, LaptopOutlined } from "@ant-design/icons";
+
+import './consultation-card.module.css'
 
 export default {
   component: ConsultationCard,
