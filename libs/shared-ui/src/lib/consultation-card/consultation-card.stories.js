@@ -8,21 +8,27 @@ import './consultation-card.module.css'
 export default {
   component: ConsultationCard,
   title: 'ConsultationCard',
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: { type: 'select' }
+    }
+  }
 };
 
 const Template = (args) => <ConsultationCard {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  elementId:"test",
+  elementId: "test",
   name: "Box 1 area",
   price: "65-85",
   time: "40 min",
   rating: 5,
   review: "15",
-  icon1:<QuestionCircleOutlined />,
-  icon2:<LaptopOutlined />,
-  icon3:<ClockCircleOutlined />,
-  selectedSubCategory:"State",
-  handleCategorySelected:"Function()"
+  icon1: <QuestionCircleOutlined />,
+  icon2: <LaptopOutlined />,
+  icon3: <ClockCircleOutlined />,
+  selectedSubCategory: "State",
+  handleCategorySelected: "Function()"
 };

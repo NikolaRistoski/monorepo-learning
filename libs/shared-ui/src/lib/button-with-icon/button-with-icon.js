@@ -1,7 +1,8 @@
 import './button-with-icon.module.css';
 import { Button } from 'antd';
 
-// HOW TO USE
+// HOW TO USE IN in parrent component
+
 // import { ButtonWithIcon } from '@skin-health/shared-ui'
 // import { MedicineBoxOutlined } from '@ant-design/icons';
 
@@ -41,3 +42,4 @@ export function ButtonWithIcon({ title, type, icon, size, width, color, justifyC
   );
 }
 export default ButtonWithIcon;
+
