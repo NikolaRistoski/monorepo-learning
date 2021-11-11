@@ -22,6 +22,13 @@ export default {
     type: {
       options: ['primary', 'default', 'dashed', 'text', 'link',],
       control: { type: 'select' }
+    },
+    size: {
+      options: ['large', 'small', 'default'],
+      control: { type: 'select' }
+    },
+    color: {
+      control:'color'
     }
 
   }
